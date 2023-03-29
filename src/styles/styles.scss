@@ -1,0 +1,1204 @@
+@import "./global/__colors";
+@import "./global/_mixins";
+@import "./global/__resets";
+
+.container-fluid {
+  padding: 0 !important;
+  .custom-container {
+    margin: 0 104px;
+  }
+}
+.navbar {
+  background-color: transparent !important;
+  padding: 57px 0;
+  margin-bottom: 37px;
+  .navbar-brand {
+    @include box(289px, 69px);
+  }
+  .nav-link {
+    @include box(100px, 16px);
+    margin-left: 28px;
+    border-radius: 4.71px;
+    &.btn {
+      @include box(170px, 63px);
+      margin-left: 35px;
+    }
+  }
+  .navbar-toggler {
+    border: solid 1px $primary-color !important;
+    span {
+      background-image: none !important;
+      height: 0;
+      margin: 4px 0;
+      border: solid 2px $primary-color !important;
+    }
+  }
+}
+#section-1 {
+  margin-bottom: 100px;
+  .box-1 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-2 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(519px, 37px, 9.4px, 28px);
+  }
+  .box-4 {
+    @include box(592px, 9px, 9.4px, 18px);
+  }
+  .box-5 {
+    @include box(356px, 9px, 9.4px, 56px);
+  }
+  .box-6 {
+    @include box(170px, 60px, 4.71px, 75px);
+  }
+  .circle-1,
+  .circle-2,
+  .circle-3,
+  .circle-4,
+  .circle-5 {
+    @include circle(75px);
+  }
+  .circle-2 {
+    margin-left: -25px;
+  }
+  .circle-3 {
+    margin-left: -25px;
+  }
+  .circle-4 {
+    margin-left: -25px;
+  }
+  .circle-5 {
+    margin-left: -25px;
+  }
+  .box-7 {
+    @include box(88px, 37px, 9.4px, 9px);
+  }
+  .box-8 {
+    @include box(76px, 9px, 9px, 0);
+  }
+  .box-10 {
+    @include box(100%, 942px);
+  }
+}
+#section-2 {
+  padding: 74px 0;
+  background-color: $primary-color;
+  margin-bottom: 40px;
+  .box-1 {
+    @include box(229px, 37px, 9.4px);
+    background-color: $secondary-color;
+  }
+}
+#section-3 {
+  margin-bottom: 140px;
+  .box-1 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-2 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(519px, 37px, 9.4px, 37px);
+  }
+  .box-4 {
+    @include box(592px, 9px, 9.4px, 18px);
+  }
+  .box-5 {
+    @include box(356px, 9px, 9.4px, 75px);
+  }
+  .box-6 {
+    @include box(272px, 84px, 9.4px);
+    margin-right: 28px;
+  }
+  .box-7 {
+    @include box(199px, 72px, 9.4px);
+  }
+  .box-8 {
+    @include box(300px, 84px, 9.4px);
+    margin-right: 28px;
+  }
+  .box-9 {
+    @include box(187px, 72px, 9.4px);
+  }
+  .box-10 {
+    @include box(712px, 814px);
+  }
+}
+#section-4 {
+  margin-bottom: 136px;
+  .box-1 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-2 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(519px, 37px, 9.4px, 90px);
+  }
+  .box-4 {
+    @include box(712px, 572px, 9.4px);
+  }
+  .box-5 {
+    @include box(361px, 355px, 9.4px, 28px);
+  }
+  .box-6 {
+    @include box(361px, 355px, 9.4px);
+  }
+}
+#section-5 {
+  margin-bottom: 65px;
+  .box-1 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-2 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(519px, 37px, 9.4px, 37px);
+  }
+  .box-4 {
+    @include box(592px, 9px, 9.4px, 28px);
+  }
+  .box-5 {
+    @include box(356px, 9px, 9.4px, 43px);
+  }
+  .box-6 {
+    @include box(161px, 54px, 9.4px);
+  }
+}
+#section-6 {
+  margin-bottom: 47px;
+  .box {
+    @include box(564px, 677px, 9.4px, 28px);
+  }
+}
+#section-7 {
+  margin-bottom: 34px;
+  .box-1 {
+    @include box(245px, 62px, 4.7px, 75px);
+  }
+  .box-2 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-4 {
+    @include box(519px, 37px, 9.4px, 37px);
+  }
+  .box-5 {
+    @include box(592px, 9px, 9.4px, 18px);
+  }
+  .box-6 {
+    @include box(356px, 9px, 9.4px);
+  }
+}
+#section-8 {
+  margin-bottom: 101px;
+  .carousel {
+    overflow-x: scroll;
+    display: flex;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .item {
+      padding: 20px;
+      background-color: $primary-color;
+      border-radius: 28px;
+      min-width: 709px;
+      height: 348px;
+      margin-right: 28px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+#section-9 {
+  padding-bottom: 278px;
+  .box-1 {
+    @include box(712px, 37px, 9.4px, 28px);
+  }
+  .box-2 {
+    @include box(567px, 37px, 9.4px, 28px);
+  }
+  .box-3 {
+    @include box(519px, 37px, 9.4px, 37px);
+  }
+  .box-4 {
+    @include box(592px, 9px, 9.4px, 18px);
+  }
+  .box-5 {
+    @include box(356px, 9px, 9.4px, 50px);
+  }
+  .box-6 {
+    @include box(1639px, 568px, 9.4px, 45px);
+  }
+  .box-7 {
+    @include box(258px, 62px, 9.4px);
+  }
+}
+
+/* media queries */
+@media (min-width: 1120px) and (max-width: 1399px) {
+  .custom-container {
+    margin: 0 80px !important;
+  }
+  .navbar {
+    .navbar-brand {
+      @include box(200px, 69px);
+    }
+    .nav-link {
+      @include box(70px, 16px, 5px);
+      &.btn {
+        @include box(130px, 63px);
+      }
+    }
+  }
+  #section-1 {
+    margin-bottom: 80px;
+    .box-1 {
+      @include box(100%, 37px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 37px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 37px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 56px);
+    }
+    .box-6 {
+      @include box(23%, 40px, 4.71px, 40px);
+    }
+    .circle-1,
+    .circle-2,
+    .circle-3,
+    .circle-4,
+    .circle-5 {
+      @include circle(60px);
+    }
+    .circle-2 {
+      margin-left: -20px;
+    }
+    .circle-3 {
+      margin-left: -20px;
+    }
+    .circle-4 {
+      margin-left: -20px;
+    }
+    .circle-5 {
+      margin-left: -20px;
+    }
+    .box-7 {
+      @include box(88px, 37px, 9.4px, 9px);
+    }
+    .box-8 {
+      @include box(76px, 9px, 9px, 0);
+    }
+    .box-10 {
+      @include box(100%, 700px);
+    }
+  }
+  #section-2 {
+    margin-bottom: 40px;
+    .box-1 {
+      @include box(180px, 37px, 9.4px);
+      background-color: $secondary-color;
+    }
+  }
+  #section-3 {
+    margin-bottom: 140px;
+    .box-1 {
+      @include box(100%, 37px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 37px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 37px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 56px);
+    }
+    .box-6 {
+      @include box(40%, 84px, 9.4px);
+    }
+    .box-7 {
+      @include box(30%, 72px, 9.4px);
+    }
+    .box-8 {
+      @include box(45%, 84px, 9.4px);
+    }
+    .box-9 {
+      @include box(30%, 72px, 9.4px);
+    }
+    .box-10 {
+      @include box(712px, 650px);
+    }
+  }
+  #section-4 {
+    margin-bottom: 136px;
+    .box-1 {
+      @include box(100%, 37px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 37px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 37px, 9.4px, 60px);
+    }
+  }
+  #section-6 {
+    .box {
+      @include box(564px, 350px, 9.4px, 28px);
+    }
+  }
+  #section-8 {
+    .carousel {
+      .item {
+        min-width: 500px;
+        height: 300px;
+        margin-right: 28px;
+      }
+    }
+  }
+  #section-9 {
+    padding-bottom: 80px;
+    .box-6 {
+      @include box(1639px, 400px, 9.4px, 45px);
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+  .custom-container {
+    margin: 0 50px !important;
+  }
+  .navbar {
+    padding: 40px 0;
+    margin-bottom: 37px;
+    .navbar-brand {
+      @include box(159px, 69px);
+    }
+    .nav-link {
+      @include box(80px, 16px);
+      margin-left: 28px;
+      border-radius: 4.71px;
+      &.btn {
+        @include box(100px, 63px);
+        margin-left: 25px;
+      }
+    }
+  }
+  #section-1 {
+    margin-bottom: 80px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(23%, 40px, 4.71px, 40px);
+    }
+    .circle-1,
+    .circle-2,
+    .circle-3,
+    .circle-4,
+    .circle-5 {
+      @include circle(60px);
+    }
+    .circle-2 {
+      margin-left: -20px;
+    }
+    .circle-3 {
+      margin-left: -20px;
+    }
+    .circle-4 {
+      margin-left: -20px;
+    }
+    .circle-5 {
+      margin-left: -20px;
+    }
+    .box-7 {
+      @include box(88px, 37px, 9.4px, 9px);
+    }
+    .box-8 {
+      @include box(76px, 9px, 9px, 0);
+    }
+    .box-10 {
+      @include box(100%, 500px);
+    }
+  }
+  #section-2 {
+    margin-bottom: 40px;
+    padding: 40px;
+    .box-1 {
+      @include box(140px, 30px, 9.4px);
+      background-color: $secondary-color;
+    }
+  }
+  #section-3 {
+    margin-bottom: 100px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(40%, 70px, 9.4px);
+    }
+    .box-7 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-8 {
+      @include box(45%, 70px, 9.4px);
+    }
+    .box-9 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-10 {
+      @include box(712px, 500px);
+    }
+  }
+  #section-4 {
+    margin-bottom: 90px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 50px);
+    }
+    .box-4 {
+      @include box(712px, 450px, 9.4px);
+    }
+    .box-5 {
+      @include box(361px, 250px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(361px, 250px, 9.4px);
+    }
+  }
+  #section-5 {
+    margin-bottom: 65px;
+    .box-1 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+    .box-6 {
+      @include box(161px, 40px, 9.4px);
+    }
+  }
+  #section-6 {
+    .box {
+      @include box(564px, 300px, 9.4px, 28px);
+    }
+  }
+  #section-7 {
+    margin-bottom: 45px;
+    .box-1 {
+      @include box(245px, 50px, 4.7px, 50px);
+    }
+    .box-2 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+  }
+  #section-8 {
+    .carousel {
+      .item {
+        min-width: 450px;
+        height: 250px;
+        margin-right: 20px;
+      }
+    }
+  }
+  #section-9 {
+    padding-bottom: 80px;
+    .box-1 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+    .box-6 {
+      @include box(1639px, 350px, 9.4px, 45px);
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-container {
+    margin: 0 50px !important;
+  }
+  .navbar {
+    padding: 40px 0;
+    margin-bottom: 10px;
+    .navbar-brand {
+      @include box(140px, 60px);
+    }
+    .nav-link {
+      @include box(80px, 16px);
+      margin: 10px 0 0;
+      border-radius: 4.71px;
+      &.btn {
+        @include box(120px, 40px);
+        margin-left: 0;
+      }
+    }
+    .navbar-toggler {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #section-1 {
+    margin-bottom: 80px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(23%, 40px, 4.71px, 40px);
+    }
+    .circle-1,
+    .circle-2,
+    .circle-3,
+    .circle-4,
+    .circle-5 {
+      @include circle(60px);
+    }
+    .circle-2 {
+      margin-left: -20px;
+    }
+    .circle-3 {
+      margin-left: -20px;
+    }
+    .circle-4 {
+      margin-left: -20px;
+    }
+    .circle-5 {
+      margin-left: -20px;
+    }
+    .box-7 {
+      @include box(88px, 37px, 9.4px, 9px);
+    }
+    .box-8 {
+      @include box(76px, 9px, 9px, 0);
+    }
+    .box-10 {
+      @include box(100%, 450px);
+    }
+  }
+  #section-2 {
+    margin-bottom: 30px;
+    padding: 40px;
+    .box-1 {
+      @include box(200px, 30px, 9.4px);
+      background-color: $secondary-color;
+    }
+  }
+  #section-3 {
+    margin-bottom: 100px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(40%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-7 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-8 {
+      @include box(45%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-9 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-10 {
+      @include box(712px, 500px);
+    }
+  }
+  #section-4 {
+    margin-bottom: 90px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 50px);
+    }
+    .box-4 {
+      @include box(712px, 350px, 9.4px);
+    }
+    .box-5 {
+      @include box(361px, 200px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(361px, 200px, 9.4px);
+    }
+  }
+  #section-5 {
+    margin-bottom: 65px;
+    .box-1 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+    .box-6 {
+      @include box(161px, 40px, 9.4px);
+    }
+  }
+  #section-6 {
+    .box {
+      @include box(564px, 250px, 9.4px, 28px);
+    }
+  }
+  #section-7 {
+    margin-bottom: 45px;
+    .box-1 {
+      @include box(245px, 50px, 4.7px, 50px);
+    }
+    .box-2 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+  }
+  #section-8 {
+    .carousel {
+      .item {
+        min-width: 350px;
+        height: 200px;
+        margin-right: 20px;
+      }
+    }
+  }
+  #section-9 {
+    padding-bottom: 80px;
+    .box-1 {
+      @include box(712px, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(567px, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(519px, 20px, 9.4px, 37px);
+    }
+    .box-6 {
+      @include box(1639px, 300px, 9.4px, 45px);
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .custom-container {
+    margin: 0 40px !important;
+  }
+  .navbar {
+    padding: 40px 0;
+    margin-bottom: 10px;
+    .navbar-brand {
+      @include box(140px, 60px);
+    }
+    .nav-link {
+      @include box(80px, 16px);
+      margin: 10px 0 0;
+      border-radius: 4.71px;
+      &.btn {
+        @include box(120px, 40px);
+        margin-left: 0;
+      }
+    }
+    .navbar-toggler {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #section-1 {
+    margin-bottom: 80px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(23%, 40px, 4.71px, 40px);
+    }
+    .circle-1,
+    .circle-2,
+    .circle-3,
+    .circle-4,
+    .circle-5 {
+      @include circle(60px);
+    }
+    .circle-2 {
+      margin-left: -20px;
+    }
+    .circle-3 {
+      margin-left: -20px;
+    }
+    .circle-4 {
+      margin-left: -20px;
+    }
+    .circle-5 {
+      margin-left: -20px;
+    }
+    .box-7 {
+      @include box(88px, 37px, 9.4px, 9px);
+    }
+    .box-8 {
+      @include box(76px, 9px, 9px, 0);
+    }
+    .box-10 {
+      @include box(100%, 250px);
+    }
+  }
+  #section-2 {
+    margin-bottom: 30px;
+    padding: 40px;
+    .box-1 {
+      @include box(200px, 30px, 9.4px);
+      background-color: $secondary-color;
+    }
+  }
+  #section-3 {
+    margin-bottom: 50px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(40%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-7 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-8 {
+      @include box(45%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-9 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-10 {
+      @include box(712px, 250px);
+    }
+  }
+  #section-4 {
+    margin-bottom: 60px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 50px);
+    }
+    .box-4 {
+      @include box(712px, 250px, 9.4px);
+    }
+    .box-5 {
+      @include box(361px, 200px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(361px, 200px, 9.4px);
+    }
+  }
+  #section-5 {
+    margin-bottom: 65px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-5 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+    .box-6 {
+      @include box(161px, 40px, 9.4px);
+    }
+  }
+  #section-6 {
+    .box {
+      @include box(564px, 250px, 9.4px, 28px);
+    }
+  }
+  #section-7 {
+    margin-bottom: 25px;
+    .box-2 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-5 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+  }
+  #section-8 {
+    margin-bottom: 60px;
+    .carousel {
+      .item {
+        min-width: 350px;
+        height: 200px;
+        margin-right: 20px;
+      }
+    }
+  }
+  #section-9 {
+    padding-bottom: 50px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-5 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+    .box-6 {
+      @include box(1639px, 250px, 9.4px, 45px);
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .custom-container {
+    margin: 0 15px !important;
+  }
+  .navbar {
+    padding: 40px 0;
+    margin-bottom: 10px;
+    .navbar-brand {
+      @include box(100px, 60px);
+    }
+    .nav-link {
+      @include box(70px, 16px);
+      margin: 10px 0 0;
+      border-radius: 4.71px;
+      &.btn {
+        @include box(80px, 40px);
+        margin-left: 0;
+      }
+    }
+    .navbar-toggler {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  #section-1 {
+    margin-bottom: 50px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(23%, 40px, 4.71px, 40px);
+    }
+    .circle-1,
+    .circle-2,
+    .circle-3,
+    .circle-4,
+    .circle-5 {
+      @include circle(60px);
+    }
+    .circle-2 {
+      margin-left: -20px;
+    }
+    .circle-3 {
+      margin-left: -20px;
+    }
+    .circle-4 {
+      margin-left: -20px;
+    }
+    .circle-5 {
+      margin-left: -20px;
+    }
+    .box-7 {
+      @include box(88px, 37px, 9.4px, 9px);
+    }
+    .box-8 {
+      @include box(76px, 9px, 9px, 0);
+    }
+    .box-10 {
+      @include box(100%, 250px);
+    }
+  }
+  #section-2 {
+    margin-bottom: 30px;
+    padding: 40px;
+    .box-1 {
+      @include box(200px, 30px, 9.4px);
+      background-color: $secondary-color;
+    }
+  }
+  #section-3 {
+    margin-bottom: 50px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 18px);
+    }
+    .box-5 {
+      @include box(50%, 9px, 9.4px, 30px);
+    }
+    .box-6 {
+      @include box(40%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-7 {
+      @include box(30%, 65px, 9.4px);
+    }
+    .box-8 {
+      @include box(45%, 70px, 9.4px);
+      margin-right: 15px;
+    }
+    .box-9 {
+      @include box(30%, 60px, 9.4px);
+    }
+    .box-10 {
+      @include box(712px, 250px);
+    }
+  }
+  #section-4 {
+    margin-bottom: 60px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(70%, 20px, 9.4px, 50px);
+    }
+    .box-4 {
+      @include box(712px, 250px, 9.4px);
+    }
+    .box-5 {
+      @include box(361px, 200px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(361px, 200px, 9.4px);
+    }
+  }
+  #section-5 {
+    margin-bottom: 40px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-5 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+    .box-6 {
+      @include box(161px, 40px, 9.4px);
+    }
+  }
+  #section-6 {
+    margin-bottom: 20px;
+    .box {
+      @include box(564px, 150px, 9.4px, 28px);
+    }
+  }
+  #section-7 {
+    margin-bottom: 25px;
+    .box-1 {
+      @include box(245px, 62px, 4.7px, 50px);
+    }
+    .box-2 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-4 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-5 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-6 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+  }
+  #section-8 {
+    margin-bottom: 60px;
+    .carousel {
+      .item {
+        min-width: 300px;
+        height: 180px;
+        margin-right: 15px;
+      }
+    }
+  }
+  #section-9 {
+    padding-bottom: 40px;
+    .box-1 {
+      @include box(100%, 20px, 9.4px, 28px);
+    }
+    .box-2 {
+      @include box(80%, 20px, 9.4px, 28px);
+    }
+    .box-3 {
+      @include box(60%, 20px, 9.4px, 37px);
+    }
+    .box-4 {
+      @include box(85%, 9px, 9.4px, 28px);
+    }
+    .box-5 {
+      @include box(70%, 9px, 9.4px, 43px);
+    }
+    .box-6 {
+      @include box(1639px, 180px, 9.4px, 45px);
+    }
+  }
+}

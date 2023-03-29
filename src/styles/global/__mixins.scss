@@ -1,0 +1,15 @@
+@mixin box($width, $height, $borderRadius: 0, $marginBottom: 0) {
+  width: $width;
+  max-width: 100%;
+  height: $height;
+  background-color: $primary-color;
+  border-radius: $borderRadius;
+  margin-bottom: $marginBottom;
+}
+
+@mixin circle($dimension) {
+  width: $dimension;
+  height: $dimension;
+  background-color: $primary-color;
+  border-radius: 50%;
+}
